@@ -61,9 +61,9 @@ This Behat Unit Test relies on own pre-set data to execute the tests. All the un
 ```
 
 <small>and then run it like this:</small><br/>
-<code>vendor/bin/behat features/product.feature --tags=tagName</code>
+<code>vendor/bin/behat features/product.feature --tags=tagName</code><br/>
 
-##TODO
+## TODO
 <ul>
 <li>Connect to Database to retrieve data from dev DB</li>
 <li>Better Error handling</li>
