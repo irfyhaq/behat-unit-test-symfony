@@ -24,9 +24,7 @@ Feature: Provide a consistent standard JSON API endpoint
       "category": "Games",
       "sku": "A0001",
       "price": "69.99",
-      "quantity": 20,
-      "created_at": "2020-01-08T01:00:00+01:00",
-      "modified_at": "2020-01-08T01:00:00+01:00"
+      "quantity": 20
     }
     """
 
@@ -42,9 +40,7 @@ Feature: Provide a consistent standard JSON API endpoint
         "category": "Games",
         "sku": "A0001",
         "price": "69.99",
-        "quantity": 20,
-        "created_at": "2020-01-08T01:00:00+01:00",
-        "modified_at": "2020-01-08T01:00:00+01:00"
+        "quantity": 20
       },
       {
         "id": 2,
@@ -52,9 +48,7 @@ Feature: Provide a consistent standard JSON API endpoint
         "category": "Games",
         "sku": "A0002",
         "price": "269.99",
-        "quantity": 15,
-        "created_at": "2019-01-08T00:22:21+01:00",
-        "modified_at": "2020-01-08T01:00:00+01:00"
+        "quantity": 15
       },
       {
         "id": 3,
@@ -62,13 +56,10 @@ Feature: Provide a consistent standard JSON API endpoint
         "category": "Computers",
         "sku": "A0003",
         "price": "1399.99",
-        "quantity": 10,
-        "created_at": "2018-02-06T12:10:09+01:00",
-        "modified_at": "2020-01-08T01:00:00+01:00"
+        "quantity": 10
       }
     ]
     """
-
   Scenario: Can add a new Product
     Given the request body is:
       """
@@ -77,9 +68,7 @@ Feature: Provide a consistent standard JSON API endpoint
         "category": "TVs and Accessories",
         "sku": "A0004",
         "price": 1499.99,
-        "quantity": 5,
-        "created_at": "2019-01-07T23:22:21+00:00",
-        "modified_at": "2018-02-06T11:10:09+00:00"
+        "quantity": 5
       }
       """
     When I request "/product" using HTTP POST
@@ -93,9 +82,7 @@ Feature: Provide a consistent standard JSON API endpoint
         "category": "Games",
         "sku": "A0003",
         "price": 1399.99,
-        "quantity": 10,
-        "created_at": "2019-01-07T23:22:21+00:00",
-        "modified_at": "2018-02-06T11:10:09+00:00"
+        "quantity": 10
       }
       """
     When I request "/product/3" using HTTP PUT
