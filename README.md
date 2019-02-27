@@ -64,6 +64,17 @@ This Behat Unit Test relies on own pre-set data to execute the tests. All the un
 <code>vendor/bin/behat features/product.feature --tags=tagName</code><br/>
 <small><i><b>--tags</b></i> flag is optional.</small><br/>
 
+# Sample Data
+```php
+Background:
+    Given there are Products with the following details:
+      | name                   | category     | sku        | price  | quantity     |created_at                | modified_at               |
+      | Pong                   | Games        | A0001      | 69.99  | 20           |2020-01-08T00:00:00+00:00 | 2020-01-08T00:00:00+00:00 |
+      | Gas Station 5          | Games        | A0002      | 269.99 | 15           |2019-01-07T23:22:21+00:00 | 2020-01-08T00:00:00+00:00 |
+      | Oman PC - Aluminium    | Computers    | A0003      | 1399.99| 10           |2018-02-06T11:10:09+00:00 | 2020-01-08T00:00:00+00:00 |
+
+```
+
 ## TODO
 <ul>
 <li>Connect to Database to retrieve data from dev DB</li>

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a74ac125-01f8-4b74-8d41-47c663e56f01" name="Default Changelist" comment="" />
+    <list default="true" id="a74ac125-01f8-4b74-8d41-47c663e56f01" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/product.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/product.feature" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="335">
-                <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+              <first_editor relative-caret-position="498">
+                <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
               </first_editor>
               <second_editor />
             </state>
@@ -76,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/product.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="75" column="33" lean-forward="true" selection-start-line="62" selection-start-column="2" selection-end-line="75" selection-end-column="33" />
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -196,12 +199,12 @@
       <option name="presentableId" value="Default" />
       <updated>1550991992674</updated>
       <workItem from="1550991996679" duration="1512000" />
-      <workItem from="1550993637099" duration="26671000" />
+      <workItem from="1550993637099" duration="27182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28183000" />
+    <option name="totallyTimeSpent" value="28694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="710" extended-state="0" />
@@ -286,16 +289,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/product.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="75" column="33" lean-forward="true" selection-start-line="62" selection-start-column="2" selection-end-line="75" selection-end-column="33" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="335">
-            <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <first_editor relative-caret-position="498">
+            <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
           </first_editor>
           <second_editor />
         </state>
