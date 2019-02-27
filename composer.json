@@ -1,0 +1,14 @@
+{
+    "name": "irfyhaq/behat-electronic-catalog",
+    "description": "TalentNet REST API Test project",
+    "require": {
+        "behat/behat": "^3.5",
+        "imbo/behat-api-extension": "^2.1"
+    },
+    "authors": [
+        {
+            "name": "Irfan Haque",
+            "email": "irfyhaq@gmail.com"
+        }
+    ]
+}
