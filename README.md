@@ -62,6 +62,7 @@ This Behat Unit Test relies on own pre-set data to execute the tests. All the un
 
 <small>and then run it like this:</small><br/>
 <code>vendor/bin/behat features/product.feature --tags=tagName</code><br/>
+<small><i><b>--tags</b></i> flag is optional.</small><br/>
 
 ## TODO
 <ul>
