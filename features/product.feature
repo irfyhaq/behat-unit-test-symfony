@@ -60,7 +60,6 @@ Feature: Provide a consistent standard JSON API endpoint
       }
     ]
     """
-  @tagName
   Scenario: Can add a new Product
     Given the request body is:
       """
